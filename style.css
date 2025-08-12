@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #00121f;
+  color: #ffedc7;
+  line-height: 1.6;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bolder;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  min-width: none;
+
+  margin: 40px;
+  & > * {
+    text-align: center;
+    margin: 0px;
+  }
+}
+
+main {
+  text-align: center;
+  & > * {
+    margin: 20px 0;
+  }
+  & > h2 {
+    font-size: 2rem;
+  }
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: 100%;
+  max-width: 1280px;
+  list-style: none;
+  font-size: 30px;
+}
+div {
+  height: 180px;
+  width: 320px;
+  border: 8px solid #b47b00;
+  border-radius: 30px;
+  margin: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 237, 199, 0.5);
+  }
+  &:active {
+    transform: scale(0.95) rotate(4deg);
+    opacity: 0.8;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+
+  margin: 40px 10px 20px 10px;
+  text-align: center;
+  font-size: 0.8em;
+
+  & > * {
+    max-width: 300px;
+  }
+}
+
+.us-citizenship-estimator {background-image: url('./assets/citzenship-price-finder.png');}
+.coin-flipping-tycoon {background-image: url('./assets/coin-flipping-tycoon.png');}
+.css-color-explorer {background-image: url('./assets/css-color-explorer.png');}
+.slots-tycoon {background-image: url('./assets/slots-tycoon.png');}
+.cee-da-tings {background-image: url('./assets/cee-da-tings.png');}
+.pomodoro-timer {background-image: url('./assets/pomodoro-timer.png');}
+.id-generator {background-image: url('./assets/id-generator.png');}
+.slot-machine {background-image: url('./assets/slots.png');}
+.paper-co {background-image: url('./assets/paper-co.png');}
+.quizo {background-image: url('./assets/quizo.png');}
+.background-color-changer {background-image: url('./assets/background-color-changer.png');}
