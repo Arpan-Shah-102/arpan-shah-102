@@ -89,6 +89,7 @@ footer {
   }
 }
 
+.tip-manager {background-image: url('./assets/tip-manager.png');}
 .us-citizenship-estimator {background-image: url('./assets/citzenship-price-finder.png');}
 .coin-flipping-tycoon {background-image: url('./assets/coin-flipping-tycoon.png');}
 .css-color-explorer {background-image: url('./assets/css-color-explorer.png');}
