@@ -89,6 +89,7 @@ footer {
   }
 }
 
+.slots-city-mockup {background-image: url('./assets/slots-city-mockup.png');}
 .tip-manager {background-image: url('./assets/tip-manager.png');}
 .us-citizenship-estimator {background-image: url('./assets/citzenship-price-finder.png');}
 .coin-flipping-tycoon {background-image: url('./assets/coin-flipping-tycoon.png');}
